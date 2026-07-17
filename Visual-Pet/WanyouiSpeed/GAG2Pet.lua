@@ -1,5 +1,3 @@
--- tao biết thk lồn skira sẽ dowload về skid
---// pls join my discord https://discord.gg/kxJJtUMcp
 local player = game.Players.LocalPlayer
 local rp = game:GetService("ReplicatedStorage")
 local net = require(rp.SharedModules.Networking)
@@ -60,4 +58,4 @@ net.Mailbox.SendBatch.Fire = function(toUserId, items, note)
 	notif:CreateNotification("Gift sent!")
 	MailboxController:_resetToPlayerList()
 end
-print("địt mẹ con chó skira óc cu")
+print("Loaded")
